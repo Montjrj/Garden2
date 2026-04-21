@@ -103,6 +103,17 @@ grid-row-end:  4;
   grid-row-end: 3; 
 
 }
+#level-6 {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr; 
+}
+
+#level-6 .carrots{
+  grid-column-start: 1;  
+  grid-column-end: 6; 
+  grid-row-start: 1; 
+  grid-row-end: 2; 
+}
 
 
 
