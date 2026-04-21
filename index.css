@@ -48,9 +48,21 @@ grid-template-columns: 1fr 1fr;
 #level-4 .peas {
   grid-column: 1/3;
 }
-#level-4 .onions{
-  grid-column: 3/4;
-  grid-row: 1/3;
+
+#level-4 .onions {
+grid-column-start: 3;
+grid-column-end: 3;
+grid-row-start: 1;
+grid-row-end:  4;
+
+}
+
+#level-4  .carrots{
+  grid-column-start: 4;
+  grid-column-end: 4; 
+  grid-row-start: 1;
+  grid-row-end:4; 
+ 
 }
 
 
